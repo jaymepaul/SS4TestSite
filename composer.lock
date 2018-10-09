@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17ef3d52a9456788143866bf1d555312",
+    "content-hash": "a45cfd6fdb275e009b2c87c4035ad848",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -5176,6 +5176,46 @@
             "time": "2018-07-24T21:55:14+00:00"
         },
         {
+            "name": "silverstripe/superglue",
+            "version": "dev-feature/ss4-upgrade",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/quantum-dragons/silverstripe-superglue.git",
+                "reference": "cad1d10a8ca44b39207cf69085a29be7a1297b85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/quantum-dragons/silverstripe-superglue/zipball/cad1d10a8ca44b39207cf69085a29be7a1297b85",
+                "reference": "cad1d10a8ca44b39207cf69085a29be7a1297b85",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe-australia/gridfieldextensions": "^3.0",
+                "silverstripe/cms": "^4.0",
+                "silverstripe/framework": "^4.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "javascript"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "SilverStripe\\SuperGlue\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "SilverStripe\\SuperGlue\\Test\\": "tests"
+                }
+            },
+            "support": {
+                "source": "https://github.com/quantum-dragons/silverstripe-superglue/tree/feature/ss4-upgrade"
+            },
+            "time": "2018-10-09T00:13:39+00:00"
+        },
+        {
             "name": "silverstripe/tagfield",
             "version": "2.1.0",
             "source": {
@@ -7629,7 +7669,8 @@
         "silverstripe/subsites": 0,
         "tractorcow/silverstripe-fluent": 0,
         "silverstripe/registry": 0,
-        "cwp/starter-theme": 0
+        "cwp/starter-theme": 0,
+        "silverstripe/superglue": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

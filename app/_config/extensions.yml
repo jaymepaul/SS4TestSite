@@ -1,0 +1,12 @@
+---
+Name: extensions
+---
+App\PageTypes\HomePage:
+  extensions:
+    - SilverStripe\SuperGlue\PageExtension
+App\Controllers\HomePageController:
+  extensions:
+    - SilverStripe\SuperGlue\PageControllerExtension
+Page:
+  extensions:
+    - SilverStripe\SuperGlue\SubPageExtension
